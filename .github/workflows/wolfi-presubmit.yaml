@@ -102,7 +102,7 @@ jobs:
           path: "data/wolfi-advisories"
 
       # this need to point to main to always get the latest action
-      - uses: wolfi-dev/actions/install-wolfictl@main # main
+      - uses: wolfi-dev/actions/install-wolfictl@5500a78c857b18e0c076fa912138c01675be068c # main
 
       - name: Test installable and Scan for CVEs
         run: |
