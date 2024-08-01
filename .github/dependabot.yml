@@ -20,3 +20,8 @@ updates:
         update-types:
           - "minor"
           - "patch"
+
+  - package-ecosystem: gomod
+    directory: /pkg/sca/testdata/go-fips-bin
+    schedule:
+      interval: daily
